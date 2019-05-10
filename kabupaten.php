@@ -37,7 +37,7 @@
 			<tr>
 				<td>Kode Kabupaten</td>
 				<td>:</td>
-				<td><input type="text" name="kode_kab"></td>
+				<td><input type="text" name="kode_kab" onkeypress="return hanyaAngka(event)"></td>
 			</tr>
 
 			<tr>
