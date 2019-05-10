@@ -20,7 +20,7 @@
 		<table>
 			<tr>
 				<td>Kode Provinsi</td>
-				<td><input type="text" name="kode_provinsi" /></td>
+				<td><input type="text" name="kode_provinsi" onkeypress="return hanyaAngka(event)"/></td>
 			</tr>
 		
 			<tr>
